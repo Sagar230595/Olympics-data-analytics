@@ -11,7 +11,7 @@ import scipy as sc
 df = pd.read_csv('athlete_events.csv')
 region_df = pd.read_csv('noc_regions.csv')
 
-st.sidebar.title("Olympics Analysis")
+st.sidebar.title("Olympics")
 st.sidebar.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH7E_YcFJi2zbxjhYoWLfl0Q2ZU3IBJgvbs9pUXGtbgg&s")
 
 df = preprocessor.preprocess(df, region_df)
